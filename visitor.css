@@ -1,0 +1,68 @@
+/* Form Section Styling */
+.form-section {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Box */
+.form-section form {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Heading */
+.form-section h1 {
+  text-align: center;
+  color: #0072ff;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Input Fields */
+.form-section input,
+.form-section select,
+.form-section textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form-section input:focus,
+.form-section select:focus,
+.form-section textarea:focus {
+  border-color: #0072ff;
+  outline: none;
+  box-shadow: 0 0 5px #0072ff;
+}
+
+/* Submit Button */
+.form-section button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-section button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}

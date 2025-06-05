@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section Styling */
+.intro-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border: 2px solid #4ca1af;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+/* Heading Style */
+.intro-section h2 {
+  font-size: 2.2rem;
+  color: #006064;
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Paragraph Styling */
+.intro-section p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .intro-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro-section p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
