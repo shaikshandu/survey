@@ -1,7 +1,7 @@
 <section class="table-section">
   <div class="table-container">
     <link rel="stylesheet" href="survey.css">
-   <a href="home.html" class="back-icon" title="Back to Home">
+   <a href="index.html" class="back-icon" title="Back to Home">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="28" height="28">
     <defs>
       <linearGradient id="a" x1="362.18" x2="170.968" y1="99.09" y2="430.28" gradientUnits="userSpaceOnUse">
